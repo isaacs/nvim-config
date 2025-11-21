@@ -1,0 +1,8 @@
+require("config.lazy")
+require("config.clipboard")
+require("config.keymapping")
+require("config.settings")
+require("config.real-tab-languages")
+require("config.checkbox")
+require("config.textwidth")
+require("config.date-yaml")
