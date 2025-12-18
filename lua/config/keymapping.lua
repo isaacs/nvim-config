@@ -9,7 +9,9 @@ map(notins, "H", "zhzh", { noremap = true })
 map(notins, "L", "zlzh", { noremap = true })
 
 map(notins, "<leader><leader>", function()
-  return vim.lsp.buf.hover()
+  return vim.lsp.buf.hover {
+    border = "rounded",
+  }
 end, { desc = "Hover", noremap = true })
 
 map(notins, "<leader>gy", function()
